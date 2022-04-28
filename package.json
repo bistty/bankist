@@ -1,0 +1,23 @@
+{
+  "name": "bankist",
+  "version": "1.0.0",
+  "description": "Bank website",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bistty/bankist.git"
+  },
+  "author": "bisola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bistty/bankist/issues"
+  },
+  "homepage": "https://github.com/bistty/bankist#readme",
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
+}
